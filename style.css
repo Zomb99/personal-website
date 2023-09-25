@@ -1,0 +1,158 @@
+
+.mainList{
+    list-style:circle;
+    list-style-position: inside;
+
+}
+.mainListItems{
+    font-weight: 200;
+    font-stretch: expanded;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.centered{
+    text-align: center;
+}
+.container{
+    display:flex;
+    justify-content: start;
+    flex-wrap: wrap;
+}
+.audio1{
+    flex: 1;
+}
+.audio2{
+    display:block;
+    flex: 1;
+}
+.audio3{
+    display:block;
+    flex: 1;
+}
+.audio4{
+    display:block;
+    flex: 1;
+}
+.audio5{
+    display:block;
+    flex: 1;
+}.audio6{
+    display:block;
+    flex: 1;
+}
+
+
+.tetrisimg {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width:50%;
+    margin-top: 0px;
+    margin-bottom:0px;
+    
+  }
+
+.header{
+    height: 10vh;
+    width: 100%;
+    padding: 0 4%;
+    background: rgb(24, 24, 35);
+    position: relative; 
+    text-indent: 0px;
+    letter-spacing: normal;
+    line-height: normal;
+    word-spacing: normal;
+}
+
+.name{
+    width:100px;
+    display: contents;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content:space-evenly;
+}
+
+.nav-links{
+    padding: 2vh 0;
+}
+
+.nav-links li{
+    display: inline-block;
+    margin: 0  2vw;
+}
+
+.nav-links li a{
+    text-decoration: none;
+    color: rgb(189, 189, 189);
+    padding: 5px 0;
+    position: relative;
+}
+
+.nav-links li a::after{
+    content: '';
+    background: maroon;
+    width: 0%;
+    height: 3px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transition: width 0.5s;
+}
+
+.nav-links li a:hover::after{
+    width: 100%;
+}
+
+#tetratable{
+    border-collapse: collapse;
+    margin-left: auto;
+    margin-right: auto;
+}
+#tetratable td, #tetratable th {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  #tetratable tr:nth-child(even)
+  {background-color:rgb(56, 56, 77);}
+  
+  #tetratable tr:hover {background-color: #ddd;}
+  
+  #tetratable th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: maroon;
+  }
+
+h1, h2, h3, h4, p, li, .a tr, td, th, details{
+  color: rgb(189, 189, 189);
+}
+
+details::after{
+    content: "\a";
+    white-space: pre;
+}
+
+a:link{
+    color:red;
+}
+
+a:visited{
+    color:maroon ;
+}
+
+hr {
+    border: 2px solid maroon;
+}
+
+body{
+    background-color: rgb(24, 24, 35);
+}
+
+
+
+/*# sourceMappingURL=style.css.map */

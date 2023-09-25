@@ -1,12 +1,24 @@
 <!DOCTYPE html>
 <html>
-    <!--Unique tags here: 8-->
+    <!--Unique HTML tags here: 8-->
+    <!--Unique CSS properties here: 0-->
+    <link href="style.css" rel="stylesheet">
     <body>
-        <h5><a href="../index.html">Country Road Take Me Home</a></h5>
-        <h1>
+        <div class="header">
+            <nav>
+                <h1 class="name">Xander Gupton</h1>
+                <ul class="nav-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="tetris.html">Tetris</a></li>
+                    <li><a href="climbing.html">Climbing</a></li>
+                    <li><a href="music.html">Music</a></li>
+                </ul>
+            </nav>
+        </div>
+        <hr />
+        <h1 class="tetrisimg">
             <img src="../Images/tetris.png" height="300" width="350">
         </h1>
-        <hr />
         <h3>
             I'm sure you're already aware of Tetris and everything its about. 
             You clear lines using blocks, pretty simple. But would you believe me 
@@ -18,7 +30,7 @@
             clear 40 Lines as fast as possible! Here are some of the fastest times 
             in the world:
         </p>
-            <table cellspacing="10">
+            <table id="tetratable">
             <tr> 
                 <th>Player</th>
                 <th>Time</th>
@@ -61,8 +73,7 @@
             myself a pretty fast player, but placing <strong>7 pieces 
             per second</strong> is absolutely unbelievable! Here's a video 
             of Lurny's time, showing the insane pace of the record.
-            Also, if you're actually reading this Ethan, if you send me 
-            an email about Tetris I'll make you brownies one day :)
+        <br>
 
         <iframe width="560" height="315" 
         src="https://www.youtube.com/embed/MT2tKthVAaI?si=CFBqoI5Q_DXbx8lZ&amp;start=6" 
